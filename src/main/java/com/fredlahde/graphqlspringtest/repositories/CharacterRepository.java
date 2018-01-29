@@ -1,5 +1,9 @@
-package com.fredlahde.graphqlspringtest;
+package com.fredlahde.graphqlspringtest.repositories;
 
+import com.fredlahde.graphqlspringtest.entities.Droid;
+import com.fredlahde.graphqlspringtest.entities.Episode;
+import com.fredlahde.graphqlspringtest.entities.Human;
+import com.fredlahde.graphqlspringtest.interfaces.Character;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;

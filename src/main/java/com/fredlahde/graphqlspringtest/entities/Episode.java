@@ -1,4 +1,4 @@
-package com.fredlahde.graphqlspringtest;
+package com.fredlahde.graphqlspringtest.entities;
 
 public enum Episode {
     NEWHOPE,

@@ -1,4 +1,6 @@
-package com.fredlahde.graphqlspringtest;
+package com.fredlahde.graphqlspringtest.interfaces;
+
+import com.fredlahde.graphqlspringtest.entities.Episode;
 
 import java.util.List;
 

@@ -1,6 +1,11 @@
-package com.fredlahde.graphqlspringtest;
+package com.fredlahde.graphqlspringtest.queries;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import com.fredlahde.graphqlspringtest.entities.Droid;
+import com.fredlahde.graphqlspringtest.entities.Episode;
+import com.fredlahde.graphqlspringtest.entities.Human;
+import com.fredlahde.graphqlspringtest.interfaces.Character;
+import com.fredlahde.graphqlspringtest.repositories.CharacterRepository;
 import graphql.schema.DataFetchingEnvironment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
